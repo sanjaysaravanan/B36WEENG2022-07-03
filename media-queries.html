@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <style>
+
+    .column {
+      margin: 1%;
+      min-height: 250px;
+    }
+
+    .left-section {
+      background-color: greenyellow;
+    }
+
+    .center-section {
+      background-color: blue;
+    }
+
+    .right-section {
+      background-color: yellow;
+    }
+
+    /* Laptop */
+    @media screen and (min-width: 800px) and (max-width: 1400px) {
+      .left-section {
+        width: 20%;
+      }
+
+      .center-section {
+        width: 54%;
+      }
+
+      .right-section {
+        width: 20%;
+      } 
+    }
+
+    /* Tablet */
+    @media screen and (max-width: 800px) and (min-width: 600px) {
+      .left-section {
+        width: 26%;
+      }
+      .center-section {
+        width: 70%;
+      }
+      .right-section {
+        width: 26%;
+      }
+    }
+
+    @media screen and (max-width: 600px) and (min-width: 200px) {
+      .left-section {
+        width: 98%;
+      }
+      .center-section {
+        width: 98%;
+      }
+      .right-section {
+        width: 98%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div style="display: flex;flex-wrap: wrap;" >
+    <div class="column left-section" onmouseover="document.getElementById('col-2').style.backgroundColor='green'" onclick="">
+      Column 1
+    </div>
+    <div class="column center-section" id="col-2" >
+      Coulmn 2
+    </div>
+    <div class="column right-section">
+      Column 3
+    </div>
+  </div>
+</body>
+
+</html>

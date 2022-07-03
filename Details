@@ -1,0 +1,43 @@
+Recap:
+
+  RWD:
+
+    Responsive Web Design ---> Based on the screen resolution design should adjust it is apealling all device/resolutions
+
+    Mobile First Apporach: Keeping Mobile in mind while developing 
+  
+  Media Query: 
+    Changing the Style based on the screen resolution.
+
+Topics:
+
+  Bootstrap Intro ( https://getbootstrap.com/docs/5.1/getting-started/introduction/ )
+
+    Bootstrap Setup & usage
+      
+      External CSS/JS which gives pre-existing CSS/HTML template which can be used on any site
+
+      Link the CSS in the Head Tag
+
+    RWD in Bootstrap, Grid, Row, Columns
+
+    12 Column System
+
+    column prefix
+
+    nested and ordering column
+
+  DOM
+
+    Document
+
+    getElementById
+
+    setAttribute
+
+    innerHTML vs innerText
+
+  Next Session:
+    Element creation
+    querySelector vs querySelectorAll
+    appendCild vs append
